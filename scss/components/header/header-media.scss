@@ -1,0 +1,26 @@
+.header{
+  @media (max-width: 420px) {
+    .navbar-brand{
+      margin-right: 25px;
+      svg{
+        max-width: 210px;
+      }
+    }
+
+    
+  }
+  @media (max-width: 991px) {
+    &__nav{
+      & .navbar-collapse{
+        margin-top: 25px;
+      }
+    }
+    & .nav-item{
+      &:not(:first-child) {
+        &:not(:last-child) {
+          margin-bottom: 10px
+        }
+      }
+    }
+  }
+}

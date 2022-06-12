@@ -1,0 +1,44 @@
+:root{
+  --bs-link-color:#17181A;
+}
+.dropdown-menu{
+  --bs-dropdown-min-width:5rem;
+  --bs-dropdown-font-size:13px;
+  --bs-dropdown-color:#17181A;
+  --bs-dropdown-link-hover-color:#99C63C;
+  --bs-dropdown-link-hover-bg:none;
+}
+.navbar-nav{
+  --bs-nav-link-color:#17181A;
+  --bs-nav-link-hover-color:#99C63C;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.show,
+.btn.show:focus{
+  --bs-btn-hover-color:#99C63C;
+  --bs-btn-hover-bg:#FFFFFF;
+  --bs-btn-hover-border-color:#99C63C;
+  --bs-btn-active-color:#99C63C;
+  --bs-btn-active-bg:#FFFFFF;
+  --bs-btn-active-border-color:#99C63C;
+  box-shadow: none;
+}
+
+$main-font-family:'Lato',sans-serif;
+
+$main-font-size:15px;
+$font-size-lg:28px;
+$font-size-sm:13px;
+
+$main-text-color:#17181A;
+$secondary-color:#99C63C;
+$main-bg-color:#F4F4F4;
+$white-color:#ffff;
+$gray-color:#515151;
+$secondary-gray-color:#BDBDBE;
+
+$transition:.3s;
+$container-max-width:1151px;

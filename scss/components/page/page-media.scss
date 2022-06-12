@@ -1,0 +1,11 @@
+.page{
+  @media (max-width: 380px) {
+    &__pagination{
+      gap: 10px;
+      &-next,
+      &-back{
+        padding: 5px 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.model{
+  &__search-btn,
+  &__reg-btn{
+    background-color: inherit;
+    border-color: $secondary-color;
+    color:$secondary-color ;
+    &:hover{
+      background-color:$secondary-color;
+      color: #ffffff;
+      border-color: $secondary-color ;
+    }
+    &:focus{
+      box-shadow:none;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.header{
+  margin-bottom: 10px;
+  box-shadow: 0 0 12px rgba(72, 79, 78, 0.17);
+
+  &__top{
+    padding: 5px 0;
+    font-size:$font-size-sm;
+  }
+
+  &__tel{
+    i{
+      padding-right: 12px;
+    }
+  }
+
+  &__lang{
+    i{
+      padding-right: 6px;
+    }
+    &-dropdown{
+      font-size:$font-size-sm;
+      color:$main-text-color;
+      &:hover,
+      &:focus{
+        color:$secondary-color;
+        transition:$transition;
+        background: inherit;
+      }
+    }
+  }
+
+  &__nav{
+    padding: 20px 0;
+    background-color:#FFFFFF;
+    & .navbar-brand{
+      margin-right: 46px;
+    }
+    & .nav-item{
+      &:not(:first-child) {
+        &:not(:last-child) {
+          margin-right: 30px
+        }
+      }
+    }
+  }
+
+  &__search-link{
+    margin-right: 68px;
+  }
+
+  &__auth{
+    gap: 16px;
+    font-size: 18px;
+
+    .bi.bi-person{
+      font-size: 20px;
+    }
+  }
+}

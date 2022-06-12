@@ -1,0 +1,82 @@
+.footer{
+  a{
+    color: $secondary-gray-color;
+    &:hover{
+      color: $secondary-color;
+      transition:$transition;
+    }
+  }
+  &__upper{
+    background-color: #26282C;
+    padding: 47px 0 22px;
+    color: $secondary-gray-color;
+    font-size:$font-size-sm;
+    i{
+      font-size: 20px;
+    }
+    &-title{
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 22px;
+      color: $white-color;
+    }
+    &-email-form{
+      & .form-control{
+        font-size:$main-font-size;
+        color: $secondary-gray-color;
+        padding: 13px 25px;
+        line-height: 18px;
+        background: initial;
+        border: 1px solid #515151;
+        border-radius: 39px;
+        &:hover{
+          color:$secondary-color;
+          border-color: $secondary-color;
+          transition:$transition;
+        }
+      }
+    }
+    &-dropdown{
+      margin-bottom: 32px;
+      & .btn{
+        font-size: $main-font-size;
+        color: $white-color;
+        padding: 13px 25px;
+        line-height: 18px;
+        background: initial;
+        border: 1px solid #515151;
+        border-radius: 39px;
+        &:hover{
+          color:$secondary-color;
+          border-color: $secondary-color;
+          transition:$transition;
+        }
+      }
+      i{
+        font-size: 15px;
+      }
+  }
+    &-social{
+      gap: 6px;
+    }
+  }
+  &__down{
+    padding: 8px 0;
+    background: #000000;
+    font-size:$font-size-sm;
+    line-height: 18px;
+    color: $secondary-gray-color;
+
+    a{
+      color: $white-color;
+      padding: 15px 16px;
+      background: $secondary-color;
+      border: 1px solid $secondary-color ;
+      border-radius: 50%;
+      &:hover{
+        background: inherit;
+        transition: $transition;
+      }
+    }
+  }
+}
