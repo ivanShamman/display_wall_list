@@ -1,4 +1,18 @@
 .page{
+  @media (max-width: 575px) {
+    &__content-card-img{
+      .card-img-secondary{
+        display: none;
+      }
+       &:hover{
+         .card-img-top{
+           opacity: 1;
+         }
+         transform:translateX(0);
+       }
+    }
+
+  }
   @media (max-width: 380px) {
     &__pagination{
       gap: 10px;

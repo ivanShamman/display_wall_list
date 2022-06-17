@@ -56,6 +56,9 @@
         font-size: 15px;
       }
   }
+    & .dropdown-menu{
+      min-width: 14rem;
+    }
     &-social{
       gap: 6px;
     }
@@ -79,4 +82,5 @@
       }
     }
   }
+
 }

@@ -87,14 +87,26 @@
     }
 
     &-card{
+      overflow: hidden;
       position: relative;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
       border-color:$white-color;
       border-radius: 16px;
+
       &:hover{
         box-shadow: 0 8px 16px rgba(166, 206, 82, 0.42);
         color: $secondary-color;
         transition:$transition;
+      }
+      &-img:hover{
+        transform: translateX(-50%);
+        transition: .8s;
+        .card-img-top{
+          opacity: 0.3;
+        }
+        .card-img-secondary{
+          opacity: 100%;
+        }
       }
     }
     & .card-title{
